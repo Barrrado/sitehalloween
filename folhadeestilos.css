@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20.5px);
+
+
+}
+
+header .conteiner {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.849);
+    max-width: 1330px;
+    justify-content: space-between;
+}
+
+h1 {color: beige;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: lighter;
+}
+
+header ul{
+    display:flex; 
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(7, 0, 0, 0.363);
+}
+header span{
+    color: brown;
+}
+header li a{
+    display: flex;
+    justify-self: end;
+    color: brown;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-weight: lighter;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+}
+header a:hover {
+    color: aliceblue;
+    background-color: rgba(250, 0, 0, 0.349);
+    transition-duration: 0.5s;
+}
+section img {
+    width: 250px;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-right:20px ;
+}
+
+section .conteiner{
+    background-image: url(/wallpaperbetter.com_1920x1080.jpg);
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    background-repeat:repeat;
+}
+section ul {
+    display: flex;
+    padding-top: 20px;
+    margin-top: 50px;
+    background-color: rgba(250, 250, 250, 0);
+    -webkit-backdrop-filter: blur(20.5px);
+    backdrop-filter: blur(20.5px);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+section li{
+    display: flex;
+}
+section article{ display: flex;
+    justify-content: space-between;
+
+}
+section,article{
+    color: rgb(255, 0, 0);
+}
+section article{
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    -webkit-backdrop-filter: blur(20.5px);
+    backdrop-filter: blur(20.5px);
+    font-weight: lighter;
+    font-family: "Permanent Marker", cursive;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+#titulo {
+    width: 500px;
+    background-color: rgba(255, 0, 0, 0.212);
+    -webkit-backdrop-filter: blur(20.5px);
+    backdrop-filter: blur(20.5px);
+    text-align: center;
+    color: brown;
+    font-weight: lighter;
+    font-family: "Permanent Marker", cursive;
+    padding-bottom: 20px;
+
+    
+}
+ .h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+#death {
+    width: 215px;
+    border-radius: 10px;
+}
+section #death:hover{
+    width: 300px;
+}
+section img:hover{
+    width: 300px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+section.Mid-horror{
+    background-image: url(/pngtree-a-dark-fantasy-painting-of-the-grim-reaper-standing-in-front-image_16180094.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-1 {
+    width: 100px;
+    height: 500px;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+section  ul.ul-videos{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+   
+}
+
+
+
+
+footer {
+    background-image: url(thumb_cripta.jpg);
+    background-color: rgba(0, 0, 0, 0.301);
+    margin-top: 0.1px;
+    border-top: 40px;
+    border-color: black;
+    box-shadow: 10px ;
+}
+footer, h3 {
+    color: rgb(185, 5, 5);
+    padding-bottom: 5px;
+    font-weight: lighter;
+    font-family: "Permanent Marker", cursive;
+}
+footer.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.sociais {
+    display: flex;
+    list-style-type: none; 
+
+}
+.sociais-midias{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 10px;
+    backdrop-filter: blur (20px);
+    padding-left: 10px;
+    width: 160px;
+    height: 30;
+}
+
+  #forms-cont { 
+    display: inline;
+    list-style-type: none; 
+    padding-bottom: 10px;
+}
+footer li{
+    padding-left: 5px;
+    align-self: center;
+}
+footer img {
+    width: 20px;
+    
+}
+
+footer img:hover{
+    width: 40px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+footer form li {
+    padding-bottom: 10px;
+}
+form {
+    background-color: rgba(65, 1, 1, 0.808);
+    border-radius: 10px;
+    padding: 20px 30px;
+    backdrop-filter: blur (20px);
+}
+form input{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    border-color: brown;
+    color: black;
+    font-family: "Permanent Marker", cursive;
+}
+form textarea {
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-family: "Permanent Marker", cursive;
+}
+
+
+#demon-selo{
+    width: 200px;
+    border-radius: 10px;  
+    cursor: crosshair;
+    align-self: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.747);
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: rgb(255, 0, 0);
+    border: 20px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+
+}
+.demon-2{
+    background-color: rgba(0, 0, 0, 0.541);
+    background-size: 500px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
