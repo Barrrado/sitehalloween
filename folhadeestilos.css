@@ -18,12 +18,16 @@ body {
 
 }
 
-header .conteiner {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.849);
-    justify-content: space-between;
+header {
+    display: block;
+    background-color: rgb(0, 0, 0);
 }
-
+.header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+}
 h1 {color: beige;
     margin-top: 10px;
     margin-bottom: 10px;
