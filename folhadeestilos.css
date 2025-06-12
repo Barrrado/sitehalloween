@@ -295,6 +295,12 @@ video {
   .conteiner {
     padding: 5px;
   }
+  .foto{
+    padding: 15px;
+  }
+  .Texto__p{
+    padding:20px
+  }
   p {
     width: auto;
     font-weight: 100;
@@ -304,6 +310,10 @@ video {
   }
   .img__conteinar {
     flex-direction: column;
+  }
+  section img {
+    border-radius: 100%;
+    padding-bottom: 10px;
   }
   .header-conteiner {
     flex-direction: column;
